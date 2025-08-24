@@ -1,3 +1,6 @@
-const isNull = (nu: null) => {
-  return nu === null;
+/**
+ * 检查 value是否是 null。
+ */
+const isNull = (val: unknown) => {
+  return val === null;
 };
