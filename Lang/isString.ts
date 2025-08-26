@@ -1,4 +1,7 @@
-const isString = (str: string) => {
+/**
+ * 判断是否为字符型
+ */
+const isString = (str?: any) => {
   if (str === null || str === undefined) return false;
 
   // 为什么用 str.valueOf()？
